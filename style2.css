@@ -1,0 +1,44 @@
+*{
+   box-sizing: border-box;
+}
+
+.cabe {
+display: flex;
+margin-bottom: 90px;
+gap: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+     margin-right: 50px;
+        line-height: 90px;
+    align-items: center;
+   }
+
+.text {
+   background-color: rgb(234, 241, 245);
+   padding: 30px; 
+   width: 90vw;
+   /* line-height: 100%; */
+   line-height: 30px; 
+}
+
+h1 {
+   font-size: 50px;
+   line-height: 50px; 
+ }
+
+a {
+   color: rgb(108, 177, 5);
+   font-size: 20px;
+  }
+
+.btn {
+   background-color: rgb(1, 223, 24);
+   border-radius: 18px;
+   margin-left: 18px;
+   cursor: pointer;
+   justify-content:space-between;
+  }

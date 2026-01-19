@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
